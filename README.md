@@ -1,6 +1,8 @@
 # Abo Verwaltung – Android-App (Java + Firebase)
 
-Uni-Projekt für den Kurs App-Entwicklung mit Android.
+Uni-Projekt für den Kurs App-Entwicklung mit Android von: 
+Paul Olaf Pfeiffer, 77203983024
+Leo Leander Harnoth, 77208244796
 
 ## Screens (5)
 1. **LoginActivity** – Login/Registrierung mit E-Mail + Passwort (Firebase Auth)
