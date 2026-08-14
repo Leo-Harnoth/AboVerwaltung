@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/detailName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kategorie"
+            android:layout_marginTop="12dp" />
+
+        <Spinner
+            android:id="@+id/spinnerDetailKategorie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/detailPreis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Preis in Euro (z.B. 12,99)"
+            android:inputType="numberDecimal"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abrechnungsintervall"
+            android:layout_marginTop="8dp" />
+
+        <Spinner
+            android:id="@+id/spinnerDetailIntervall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textMonatspreis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:layout_marginTop="4dp" />
+
+        <EditText
+            android:id="@+id/detailStartdatum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Startdatum (TT.MM.JJJJ)"
+            android:inputType="text"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/detailLaufzeit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Laufzeit in Monaten (z.B. 12)"
+            android:inputType="number"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/detailFrist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kündigungsfrist in Tagen (z.B. 30)"
+            android:inputType="number"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/detailBedingungen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sonstige Bedingungen (optional)"
+            android:inputType="textMultiLine"
+            android:minLines="2"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/detailKuendigung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:padding="12dp"
+            android:background="#FFF3E0" />
+
+        <TextView
+            android:id="@+id/detailNutzung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/buttonBearbeiten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bearbeiten"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/buttonSpeichern"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speichern"
+            android:visibility="gone"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/buttonBearbeitenAbbrechen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Abbrechen"
+            style="?android:attr/borderlessButtonStyle"
+            android:visibility="gone"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/buttonLoeschen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Abo löschen"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/buttonZurueck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zurück"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Abo Verwaltung</string>
+
+    <!-- Kategorien fürs Formular -->
+    <string-array name="kategorien">
+        <item>Streaming</item>
+        <item>Musik</item>
+        <item>Gaming</item>
+        <item>Software</item>
+        <item>Fitness</item>
+        <item>Zeitung / Magazin</item>
+        <item>Mobilität</item>
+        <item>Sonstiges</item>
+    </string-array>
+
+    <!-- Kategorien für den Filter (inkl. "Alle") -->
+    <string-array name="kategorien_filter">
+        <item>Alle</item>
+        <item>Streaming</item>
+        <item>Musik</item>
+        <item>Gaming</item>
+        <item>Software</item>
+        <item>Fitness</item>
+        <item>Zeitung / Magazin</item>
+        <item>Mobilität</item>
+        <item>Sonstiges</item>
+    </string-array>
+
+    <string-array name="intervalle">
+        <item>monatlich</item>
+        <item>jährlich</item>
+    </string-array>
+</resources>

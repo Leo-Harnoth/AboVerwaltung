@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abo hinzufügen"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editAboName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name des Abos (z.B. Netflix)"
+            android:inputType="text"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/buttonVorlageSuchen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vorlage suchen"
+            style="?android:attr/borderlessButtonStyle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kategorie"
+            android:layout_marginTop="8dp" />
+
+        <Spinner
+            android:id="@+id/spinnerKategorie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editAboPreis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Preis in Euro (z.B. 12,99)"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abrechnungsintervall"
+            android:layout_marginTop="8dp" />
+
+        <Spinner
+            android:id="@+id/spinnerIntervall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editAboStartdatum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Startdatum (TT.MM.JJJJ)"
+            android:inputType="text"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/editAboLaufzeit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Laufzeit in Monaten (z.B. 12)"
+            android:inputType="number"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/editAboFrist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kündigungsfrist in Tagen (z.B. 30)"
+            android:inputType="number"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/editAboBedingungen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sonstige Bedingungen (optional)"
+            android:inputType="textMultiLine"
+            android:minLines="2"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/buttonSpeichern"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speichern"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/buttonAbbrechen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Abbrechen"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_marginTop="4dp" />
+
+    </LinearLayout>
+</ScrollView>
